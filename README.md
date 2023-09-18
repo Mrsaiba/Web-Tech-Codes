@@ -25,7 +25,7 @@ If you'd like to explore my projects and code examples, follow these steps:
 
 3. Open the code in your preferred code editor or IDE and start exploring.
 
-# Technologies Used
+## Technologies Used
 
 In this repository, I've worked with a variety of web technologies, including:
 
@@ -39,7 +39,7 @@ In this repository, I've worked with a variety of web technologies, including:
 
 Feel free to explore the code and projects to see how these technologies have been implemented.
 
-# Contributing
+## Contributing
 
 I'm open to contributions from fellow students, developers, or anyone interested in web technologies. If you'd like to contribute, please follow these steps:
 
@@ -51,6 +51,6 @@ I'm open to contributions from fellow students, developers, or anyone interested
 
 I appreciate your contributions!
 
-# License
+## License
 
 This repository is licensed under the MIT License. Feel free to use the code as a learning resource or for personal projects.
