@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time improve us</p>
+    <form action="/submit" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Enter your name: <input type="text" id="name" placeholder="John Doe"
+                    required></label>
+            <label for="email" id="email-label">Enter your email id: <input type="email" id="email"
+                    placeholder="abcd@gmail.com" required></label>
+            <label for="number" id="number-label">Age: <input type="number" id="number" min="13" max="120"
+                    placeholder="13-120" required></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="student-account"><input type="radio" id="student-account" name="account-type" value="student-account" class="inline">Student
+                Account</label>
+            <label for="professional-account"><input type="radio" id="professional-account"
+                    name="account-type" value="professional-account" class="inline">Professional Account</label>
+
+            <p>What type of course do you want? (check all that apply)</p>
+            <label for="backend"><input id="backend" value="backend" type="checkbox" class="inline"/>Backend</label>
+            <label for="frontend"><input id="frontend" value="frontend" type="checkbox" class="inline"/>Frontend</label>
+            <label for="full-stack"><input id="full-stack" value="full-stack" type="checkbox" class="inline"/>Full Stack</label>
+            <label for="software-devloper"><input id="software-devloper" value="software-devloper" type="checkbox" class="inline"/>Software-devloper</label>
+            <label for="devops"><input id="devops" value="devops" type="checkbox" class="inline"/>DevOps</label>
+            <label for="nosql"><input id="nosql" value="nosql" type="checkbox" class="inline"/>NoSQL</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="refer">Where did you hear about us?
+                <select name="refer" id="dropdown">
+                    <option value="">-</option>
+                    <option value="1">Youtube Ads</option>
+                    <option value="2">Github</option>
+                    <option value="3">Twitter</option>
+                    <option value="4">StackOverFlow</option>
+                </select>
+            </label>
+            
+            <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions"
+                    name="terms-and-conditions" value="terms-and-conditions" required />I accept the<a href="#"> terms and conditions.</a></label>
+            <label for="comment">Any Suggestions for us:
+                 <textarea name="comment" id="comment" cols="30" rows="10" placeholder="I would like this....."></textarea>
+            </label>
+
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="Submit"/>
+
+    </form>
+
+
+
+</body>
+
+</html>
